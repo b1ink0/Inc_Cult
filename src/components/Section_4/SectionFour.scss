@@ -1,0 +1,37 @@
+@import "../Styles/mixin.scss";
+.section_4 {
+  .section_4_wrapper {
+    h1:nth-child(1) {
+      @include border_bottom;
+    }
+    .blog_wrapper {
+      border: 2px solid var(--gold);
+      box-shadow: -2px 0px 20px var(--gold-t), 0px 0px 25px var(--gold-t);
+      .profile_wrapper {
+        h1 {
+          border: none;
+        }
+      }
+      ul {
+        list-style: none;
+        li::before {
+          content: "\2022";
+          color: var(--gold);
+          font-weight: bold;
+          display: inline-block;
+          width: 1em;
+          margin-left: -1em;
+        }
+      }
+      .last_wrapper {
+        a {
+          color: var(--gold);
+          border-bottom: 1px solid var(--white);
+          &:hover {
+            border-bottom: 1px solid var(--gold);
+          }
+        }
+      }
+    }
+  }
+}

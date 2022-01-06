@@ -1,0 +1,129 @@
+.logo_one {
+  g {
+    g {
+    }
+    line {
+      fill: none;
+      stroke: var(--gold);
+      stroke-miterlimit: 10;
+      stroke-width: 101px;
+    }
+    .cls-01 {
+      animation: c 0.4s ease forwards;
+      transform: translate(0, -100%);
+    }
+    .cls-02 {
+      animation: a 0.4s ease 0.4s forwards;
+      transform: translate(-100%, 0);
+    }
+    .cls-03 {
+      animation: d 0.4s ease 0.8s forwards;
+      transform: translate(0, 100%);
+    }
+    .cls-04 {
+      animation: d 0.4s ease 1.2s forwards;
+      transform: translate(0, 100%);
+    }
+    .cls-05 {
+      animation: b 0.4s ease 1.6s forwards;
+      transform: translate(100%, 0);
+    }
+    .cls-06 {
+      animation: c 0.4s ease 2s forwards;
+      transform: translate(0, -100%);
+    }
+    .cls-07 {
+      animation: a 0.4s ease 4.8s forwards;
+      transform: translate(-100%, 0);
+    }
+    .cls-08 {
+      animation: b 0.4s ease 5.2s forwards;
+      transform: translate(100%, 0);
+    }
+    .cls-09 {
+      animation: c 0.4s ease 2.4s forwards;
+      transform: translate(0, -100%);
+    }
+    .cls-010 {
+      animation: b 0.4s ease 2.8s forwards;
+      transform: translate(100%, 0);
+    }
+    .cls-011 {
+      animation: d 0.4s ease 3.2s forwards;
+      transform: translate(0, 100%);
+    }
+    .cls-012 {
+      animation: c 0.4s ease 3.6s forwards;
+      transform: translate(0, -100%);
+    }
+    .cls-013 {
+      animation: b 0.4s ease 4s forwards;
+      transform: translate(100%, 0);
+    }
+    .cls-014 {
+      animation: d 0.4s ease 4.4s forwards;
+      transform: translate(0, 100%);
+    }
+    .cls-015 {
+      animation: c 0.4s ease 5.6s forwards;
+      transform: translate(0, -100%);
+    }
+    .cls-016 {
+      animation: b 0.4s ease 6s forwards;
+      transform: translate(100%, 0);
+    }
+    .cls-017 {
+      animation: d 0.4s ease 6.4s forwards;
+      transform: translate(0, 100%);
+    }
+    .cls-018 {
+      animation: c 0.4s ease 6.8s forwards;
+      transform: translate(0, -100%);
+    }
+    .cls-019 {
+      animation: b 0.4s ease 7.2s forwards;
+      transform: translate(100%, 0);
+    }
+
+    .cls-020 {
+      animation: b 0.4s ease 7.6s forwards;
+      transform: translate(100%, 0);
+    }
+    .cls-021 {
+      animation: d 0.4s ease 8s forwards;
+      transform: translate(0, 100%);
+    }
+    @keyframes a {
+      0% {
+        transform: translate(-100%, 0);
+      }
+      100% {
+        transform: translate(0, 0);
+      }
+    }
+    @keyframes b {
+      0% {
+        transform: translate(100%, 0);
+      }
+      100% {
+        transform: translate(0, 0);
+      }
+    }
+    @keyframes c {
+      0% {
+        transform: translate(0, -100%);
+      }
+      100% {
+        transform: translate(0, 0);
+      }
+    }
+    @keyframes d {
+      0% {
+        transform: translate(0, 100%);
+      }
+      100% {
+        transform: translate(0, 0);
+      }
+    }
+  }
+}

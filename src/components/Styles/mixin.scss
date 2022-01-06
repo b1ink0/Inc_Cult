@@ -1,0 +1,17 @@
+@mixin card {
+  height: 400px;
+  background-color: #ffffff0e;
+  border: 3px solid var(--gold);
+  box-shadow: -2px 0px 20px var(--gold-t), 0px 0px 25px var(--gold-t);
+  border-radius: 10px;
+  transform: scale(0.9);
+}
+@mixin border {
+  border: 3px solid var(--gold);
+}
+@mixin border_bottom {
+  border-bottom: 3px solid var(--gold);
+}
+@mixin box_shadow {
+  box-shadow: -2px 0px 20px var(--gold-t), 0px 0px 25px var(--gold-t);
+}

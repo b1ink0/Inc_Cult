@@ -1,0 +1,48 @@
+@import "../Styles/mixin.scss";
+.section_5 {
+  .section_5_warpper {
+    h1 {
+      @include border_bottom;
+    }
+    .card_container {
+      .card {
+        @include card;
+        transition: all 0.5s;
+        .profile_wrapper {
+          transition: all 0.5s;
+          .profile_img {
+            transition: all 0.5s;
+            width: 200px;
+            height: 200px;
+          }
+          h1 {
+            border: none;
+          }
+          p {
+            transition: all 0.5s;
+          }
+        }
+        .socials {
+          a {
+            transition: all 0.5s;
+            &:hover {
+              transform: scale(1.2);
+            }
+          }
+        }
+        &:hover {
+          transform: scale(0.95) translate(0, -50px);
+          .profile_wrapper {
+            .profile_img {
+              width: 100px;
+              height: 100px;
+            }
+            p {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+}

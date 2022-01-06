@@ -1,0 +1,25 @@
+@import "../Styles/mixin.scss";
+.section_6 {
+  .section_6_wrapper {
+    h1 {
+      @include border_bottom;
+    }
+    .contact_wrapper {
+      @include box_shadow;
+      @include border;
+      border-radius: 10px;
+      width: 450px;
+      height: 550px;
+      form {
+        button {
+          @include border;
+          border-radius: 10px;
+          transition: all 0.3s;
+          &:hover {
+            background-color: var(--gold-t);
+          }
+        }
+      }
+    }
+  }
+}

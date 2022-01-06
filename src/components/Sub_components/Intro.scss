@@ -1,23 +1,20 @@
 .intro_container {
-  background-color: #000000;
-  animation: fadeOut 1s ease 6.5s forwardS;
-  @keyframes fadeOut {
-    0% {
-      background-color: #000000;
-    }
-    100% {
-      background-color: #00000000;
-    }
-  }
   .intro {
-    animation: fadeIn 1s ease 0s forwardS;
+    animation: fadeIn 7.5s ease 0s forwardS;
     opacity: 0;
+    background-color: #000000;
     @keyframes fadeIn {
       0% {
         opacity: 0;
       }
-      100% {
+      13% {
         opacity: 1;
+      }
+      86% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
       }
     }
     .intro_section_1 {

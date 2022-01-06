@@ -1,1 +1,11 @@
-
+@keyframes down_btn {
+  0% {
+    transform: translate(0, 0) rotate(-45deg);
+  }
+  50% {
+    transform: translate(0, 10px) rotate(-45deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(-45deg);
+  }
+}

@@ -1,18 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .input-focus {
+    height: 30px;
+    bottom: 0;
+  }
+  .input-focus-label {
+    font-size: 15px;
+    top: 0;
+    margin-top: 0;
+  }
+  .textarea-focus {
+    height: 115px;
+    bottom: 0;
+  }
+  .textarea-focus-label {
+    font-size: 15px;
+    margin-top: 0;
+  }
+}
+
 :root {
   --white: #ffffff;
   --black: #000000;
   --orange: #ff8800;
   --gold: #fec107;
+  --gold-t: #fec1077d;
   --gray: #2e2e2e;
+  --gray-1: #bebebe;
 }
 * {
   text-align: center;
   color: var(--white);
   font-family: "Poppins", sans-serif;
-  transition: all 0.3s;
+}
+html {
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -22,6 +47,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--black);
+  color: var(--white);
+}
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--gold);
+  outline: 1px solid slategrey;
+}
+#root {
+  position: relative;
 }
 
 code {

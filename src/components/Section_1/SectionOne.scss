@@ -1,0 +1,22 @@
+.section_1 {
+  header {
+    .section_1_warpper {
+      .section_1_warpper_1 {
+        h1 {
+          color: var(--gold);
+        }
+      }
+    }
+    .section_1_btn_warpper {
+      div {
+        animation: down_btn 2s ease 6s infinite;
+        span {
+          background-color: var(--gold);
+        }
+      }
+      &:hover {
+        transform: scale(1.15);
+      }
+    }
+  }
+}

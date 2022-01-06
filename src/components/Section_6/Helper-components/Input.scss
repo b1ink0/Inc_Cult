@@ -1,0 +1,36 @@
+@import "../../Styles/mixin.scss";
+.input_wrapper {
+  @include border;
+  border-radius: 10px;
+  input,
+  textarea {
+    background: none;
+    outline: none;
+    resize: none;
+    caret-color: var(--gold);
+  }
+  label {
+    transition: all 0.3s;
+    color: var(--gray-1);
+  }
+  input:focus {
+    height: 30px;
+    bottom: 0;
+  }
+  input:focus {
+    height: 30px;
+    bottom: 0;
+  }
+  textarea:focus {
+    height: 115px;
+    bottom: 0;
+  }
+  input:focus + label {
+    font-size: 15px;
+    top: 0;
+  }
+  textarea:focus + label {
+    font-size: 15px;
+    margin-top: 0;
+  }
+}

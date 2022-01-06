@@ -1,0 +1,37 @@
+@import "../Styles/mixin.scss";
+.section_2 {
+  .section_1_warpper {
+    .card_container {
+      .card {
+        @include card;
+        transition: all 0.3s;
+        &::before,
+        &::after {
+          top: 0;
+          content: "";
+          width: 50%;
+          height: 100%;
+          position: absolute;
+          z-index: -1;
+        }
+        &::before {
+          left: 0;
+          background-color: #4e4e4e31;
+        }
+        &::after {
+          right: 0;
+          background-color: #2e2e2e11;
+        }
+        &:hover {
+          transform: scale(0.95) translate(0, -100px);
+        }
+        h1 {
+          border-bottom: 3px solid var(--gold);
+        }
+        p {
+          height: 350px;
+        }
+      }
+    }
+  }
+}
