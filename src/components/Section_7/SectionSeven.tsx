@@ -36,7 +36,7 @@ export default function SectionSeven() {
             <img src={InstagramSvg} alt="socials" className="w-12" />
           </a>
         </div>
-        <p className="w-full flex justify-center items-center text-center mt-28">
+        <p className="w-full flex justify-center items-center text-center mt-20">
           © Copyright IncCult 2021-2022
         </p>
         <div className="footer_bottom w-full h-1 mt-4"></div>
